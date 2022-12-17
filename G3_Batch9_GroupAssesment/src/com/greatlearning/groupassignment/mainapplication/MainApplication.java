@@ -31,7 +31,7 @@ public class MainApplication {
 		System.out.println(" Welcome to" + techDept.departmentName());
 		System.out.println(charToUpperCase(techDept.getTodaysWork().trim(), 19));
 		System.out.println(techDept.getWorkDeadline().trim());
-		System.out.println(" " + charToUpperCase(techDept.getTechStackInformation(),0));
+		System.out.println(" " + charToUpperCase(techDept.getTechStackInformation(), 0));
 		System.out.println(charToUpperCase(techDept.isTodayAHoliday().trim(), 15) + "\n");
 	}
 
